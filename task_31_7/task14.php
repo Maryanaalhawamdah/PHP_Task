@@ -7,8 +7,10 @@
 </head>
 <body>
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+$my_str = 'The quick brown fox jumps over the lazy dog';
+echo $my_str;
+echo "<br>";
+echo str_replace("fox", " ", $my_str)."\n";
 ?>
 </body>
 </html>

@@ -7,8 +7,11 @@
 </head>
 <body>
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+$x = '000547023.24';
+echo $x;
+echo "<br>";
+$str1 = ltrim($x, '0');
+echo $str1."\n";
 ?>
 </body>
 </html>

@@ -6,9 +6,18 @@
     <title>Document</title>
 </head>
 <body>
+
+
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+$str = 'I am a full stack developer at orange coding academy.';
+if (strpos($str,'orange') !== false) 
+ {
+    echo 'Word Found!.';
+ }
+else
+ {
+    echo 'Word not Found!.';
+ }
 ?>
 </body>
 </html>

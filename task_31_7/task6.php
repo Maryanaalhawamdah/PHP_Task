@@ -7,8 +7,8 @@
 </head>
 <body>
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+$str = 'info@orange.com';
+echo substr($str, -3)."\n";
 ?>
 </body>
 </html>

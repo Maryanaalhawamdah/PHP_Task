@@ -7,8 +7,9 @@
 </head>
 <body>
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+for ($x = ord('a'); $x <= ord('z'); $x++)
+ echo chr($x);
+ echo "\n"
 ?>
 </body>
 </html>

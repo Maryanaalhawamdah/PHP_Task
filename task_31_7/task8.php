@@ -7,8 +7,8 @@
 </head>
 <body>
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+$str = 'That new trainee is so genius.';
+echo preg_replace('/That/', 'the', $str, 1)."\n"; 
 ?>
 </body>
 </html>

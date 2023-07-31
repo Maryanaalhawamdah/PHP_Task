@@ -7,8 +7,9 @@
 </head>
 <body>
 <?php
-$str1= '082307'; 
-echo substr(chunk_split($str1, 2, ':'), 0, -1)."\n";
+$str = array("Twinkle", "twinkle", "little star.");
+
+var_dump($str);
 ?>
 </body>
 </html>
