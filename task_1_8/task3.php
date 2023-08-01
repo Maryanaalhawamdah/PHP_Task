@@ -12,7 +12,7 @@ asort($ceu) ;
 foreach($ceu as $country => $capital)
 {
 echo "The capital of $country is $capital" ;
-echo "<br>";
+echo"<pre>";
 }
 ?>
 </body>
