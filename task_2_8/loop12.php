@@ -16,19 +16,19 @@ for ($i=5; $i>=1; $i--) {
 for ($k=0; $k<=(5-$j); $k++) {    
     echo $alpha[$k];   
 }    
-echo "<br>\n";  
+echo "<br>";  
 }  
-for ($i=0; $i>=4; $i++) { 
-    for($j=5; $j<=$i; $j--){
+for ($i=3; $i>=0; $i--) { 
+    for($j=0; $j<=$i; $j++){
         echo $alpha[$j];   
     } 
-    echo "<br>\n";   
+    echo "<br>";   
    
        
     }  
  
  
-    
+
 ?>  
 </body>
 </html>
