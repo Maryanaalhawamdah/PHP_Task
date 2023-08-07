@@ -10,7 +10,7 @@
 <h2>Please input astring here</h2>
  <input type="text" name="x">
 
- <input type="submit" value="Submit x,y">
+ <input type="submit" value="Submit ">
  </form>  
 
 <?php
