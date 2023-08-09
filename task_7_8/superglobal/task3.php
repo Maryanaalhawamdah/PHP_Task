@@ -77,6 +77,7 @@ echo "<script language=javascript> alert(\"Please Enter Correct values.\");</scr
  
 </table>
 </form>
- 
+ <?php
+ ?>
 </body>
 </html>
